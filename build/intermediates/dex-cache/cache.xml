@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_97defaceb7388e3a9c4db6815621d92634fa571b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="898d3d0381dc98356ec6e69a59723db5cbe6a9a2">
+        <dex dex="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1a4557a98a9a7d8fcac6cab7ddf8deb087277ea0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_d9bef5b64e0ec2235bf34dc65037740d45a6bdc1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_2c3bc250b2cfa600ed43a03f0431533859f36e1f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/LilySmith/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_10d779db531efbd7b6d7d18fdb3c10c602b90922/classes.dex" />
+    </item>
+    <item
+        jar="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a5fb5e7f1a43d8f5a238e1781c277cd4a89151de">
+        <dex dex="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_331af5ffc3f5dd9471b8ee3e140e47fac778c9cf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_4b662a37f1984e73a31a232e931162aee2b64a01/classes.dex" />
+    </item>
+    <item
+        jar="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/LilySmith/AndroidStudioProjects/Android_Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_0e7ad50d55188d53b3a9c59e312f354ab7bc3d97/classes.dex" />
+    </item>
+
+</items>
