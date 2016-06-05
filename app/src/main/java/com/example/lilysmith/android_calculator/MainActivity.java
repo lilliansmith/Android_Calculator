@@ -169,11 +169,12 @@ public class MainActivity extends AppCompatActivity {
             if (operatorsCount == 0 && squareRoot == false)
                 throw new noOperatorsException(); // throw an exception if there are no operators
             // (+, -, /, x) and no square root symbol
-            if (operatorsCount == 0 && squareRoot == true && numberOfSquareRoots == 1)
+            if (operatorsCount == 0 && squareRoot == true && numberOfSquareRoots == 1
+                    && numberArray[0].equals("√"))
                 throw new onlySquareRootException(); // special handling for equations that
             // contain a square root symbol without any other operators (ex: √5). Equations that
             // have a square root symbol and an operator are treated normally (ex: √5 + 2)
-            if (operatorsCount == 0 && squareRoot == true && numberOfSquareRoots > 1)
+            if (operatorsCount == 0 && squareRoot == true)
                 throw new badSquareRootInput(); // throw an exception if there are only square
             // root signs present and there are > 1 of them (deals with bad inputs such as √5√10√)
 
@@ -201,8 +202,8 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else
                         throw new badNegativeSignInput(); // throw an exception if the negative sign
-                    // comes after the number (ex 4 + 8-)
-                } else
+                        // comes after the number (ex 4 + 8-)
+                } else if (number != "")
                     doubleArray[x] = Double.parseDouble(number);
 
             }
@@ -244,19 +245,20 @@ public class MainActivity extends AppCompatActivity {
         }
         catch (onlySquareRootException e) { // deals with equations that contain no operators and
             // only square root functions
-            String num = "";
+            String number = "";
             for (int x = 0; x < numberArray.length; x++) {
                 for (int y = 0; y < numberArray.length; y++) {
                     if (numberArray[x][y] != null) {
-                        num = num.concat(numberArray[x][y]);
+                        number = number.concat(numberArray[x][y]);
                     }
                 }
             }
-            if (num.startsWith("√")) {
-                num = num.replace("√", "");
-                num = Double.toString(Math.sqrt((Double.parseDouble(num))));
+            if (number.startsWith("√")) {
+                number = number.replace("√", "");
+                number = Double.toString(Math.sqrt((Double.parseDouble(number))));
+                textBox.setText(textBox.getText() + " = " + number);
             }
-            textBox.setText(textBox.getText() + " = " + num);
+
         }
 
 

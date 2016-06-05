@@ -49,7 +49,7 @@
             style="?android:attr/buttonStyleSmall"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="@string/Subtration_Button_Text"
+            android:text="@string/Subtraction_Button_Text"
             android:id="@+id/subtractionButton"
             android:layout_weight="1" />
 

@@ -2,7 +2,7 @@
     <string name="app_name">"Android Calculator "</string>
     <string name="change_Sign_Button_Text">+/-</string>
     <string name="Addition_Button_Text">+</string>
-    <string name="Subtration_Button_Text">-</string>
+    <string name="Subtraction_Button_Text">–</string>
     <string name="Multiplication_Button_Text">x</string>
     <string name="One_Button_Text">1</string>
     <string name="Two_Button_Text">2</string>
